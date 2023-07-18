@@ -11,6 +11,12 @@ public class Carbon14DatingTest {
         #2 Build a test for setRemainingAmount() in the
         scenario the given remaining value is <= 1.
     */
+    @Test
+    @DisplayName("test remaining amount setter with remainder less than 1")
+    public void testSetterRemainingAmtLessThan1(){
+        Carbon14Dating test = new Carbon14Dating(0.7);
+        assertEquals(1, test.getRemainingAmount());
+    };
 
    /*
         #3 Build a test for setRemainingAmount() in the
