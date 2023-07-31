@@ -11,7 +11,7 @@ public class Carbon14Dating {
         this.age = calculateAge();
     }
 
-
+// laura was here 
     /**
      * This setter only allows numbers => 1. If it is not >=1 the setter defaults the value to 1.
      * @param remainingAmount the amount of c14 in the sample as a percentage (whole number)
